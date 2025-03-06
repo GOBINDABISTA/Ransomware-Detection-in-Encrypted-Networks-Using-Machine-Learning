@@ -21,7 +21,7 @@ flows = {}
 
 # Load trained models
 model_path = r"RansomwareTraining\models"
-# model_path = r"C:\Hari_Krishna_Khuju\MajorProject\Dataset\NewDataset\ransomwareTraining\models"
+# model_path = r"C:\GB\MajorProject\Dataset\NewDataset\ransomwareTraining\models"
 rf_model = joblib.load(os.path.join(model_path, "random_forest_New.pkl"))
 xgb_model = joblib.load(os.path.join(model_path, "xgboost_New.pkl"))
 dt_model = joblib.load(os.path.join(model_path, "decision_tree_New.pkl"))
