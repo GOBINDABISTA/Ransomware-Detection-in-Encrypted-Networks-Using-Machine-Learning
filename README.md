@@ -32,7 +32,7 @@ pip install -r requirements.txt
 zeek -r <pcap_file>
 
 # Run the machine learning model for ransomware detection
-python detect_ransomware.py
+python Detection.py
 ```
 
 ## Dataset
